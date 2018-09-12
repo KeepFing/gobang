@@ -20,8 +20,9 @@ function init()
 		}
 	}
  var canvas=document.getElementById("canvas");
- canvas.width=600;
- canvas.height=600;
+ var len = document.body.clientWidth;
+ canvas.width=len;
+ canvas.height=len;
  canvas.style.backgroundColor='#d7c098';
  var  ctx=canvas.getContext('2d');
  ctx.strokeStyle='#fff';
